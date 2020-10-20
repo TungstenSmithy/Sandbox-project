@@ -50,3 +50,4 @@ print(random.randint(0, pinkVar + 999))
 print(secRange)
 print(info)
 print(prekNum)
+#lol
