@@ -45,3 +45,4 @@ print(random.randint(0, pinkVar))
 print(secRange)
 print(info)
 print(prekNum)
+#lol
