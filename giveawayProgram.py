@@ -16,16 +16,11 @@ entreeRange = {
 }
 #function
 def makeEntree(name, numEntrees):
-    #function variables
-    minName = "min" + name
-    maxName = "max" + name
     
     #function execution
     info['totalEntrees'] = info['totalEntrees'] + numEntrees
     prekNum["prevNum"] = numEntrees + 1
     secRange[name] = numEntrees + info['totalEntrees'] - prekNum["prevNum"]
-    #entreeRange[minName] = secRange[name] 
-    #entreeRange[maxName] = 
 #Entrees
 """
 Note: You have to manually add each entry. The first argument is the name of the enterer, and the 2nd argument is the number
@@ -46,8 +41,7 @@ to their name. Still working on display for winner.
 """
 pinkVar = info['totalEntrees']
 print(pinkVar)
-print(random.randint(0, pinkVar + 999))
+print(random.randint(0, pinkVar))
 print(secRange)
 print(info)
 print(prekNum)
-#lol
