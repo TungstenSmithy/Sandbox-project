@@ -30,7 +30,7 @@ makeEntree('Arknight444', 1000)
 makeEntree('MightyWolf_', 2000)
 makeEntree('BillyBobJoe', 1000)
 makeEntree("Bobby", 2000)
-
+makeEntree("Dan",1000)
 #Printing
 """
 IMPORTANT: The first number displayed is the total number of entrees
@@ -45,3 +45,4 @@ print(random.randint(0, pinkVar))
 print(secRange)
 print(info)
 print(prekNum)
+#lol
