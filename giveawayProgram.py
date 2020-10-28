@@ -55,4 +55,5 @@ print(lowEntreeRange)
 print(randomNum)
 print(info)
 print(prekNum)
-#lol
+print('')
+print('')
